@@ -1,0 +1,39 @@
+{
+  "name": "gocalendar",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test.unit": "vitest",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.13.0",
+    "dayjs": "^1.11.10",
+    "prettier": "^3.2.2",
+    "react": "^18.2.0",
+    "react-big-calendar": "^1.8.6",
+    "react-dom": "^18.2.0",
+    "react-router": "^5.3.4",
+    "react-router-dom": "^5.3.4",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-big-calendar": "^1.8.8",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "@vitejs/plugin-legacy": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.32.2",
+    "jsdom": "^22.1.0",
+    "typescript": "^5.1.6",
+    "vite": "^5.0.0"
+  }
+}

@@ -1,0 +1,39 @@
+div.ant-tabs-content-top {
+  height: 100%;
+}
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+}
+div {
+  box-sizing: border-box;
+}
+#root {
+  width: 100%;
+  height: 100%;
+  padding: 8px 16px;
+  display: flex;
+  gap: 24px;
+}
+
+#root > *:first-child {
+  flex-grow: 1;
+}
+
+span.red {
+  color: red;
+}
+span.green {
+  color: #33aa33;
+}
+
+.ant-picker-time-panel-column::after {
+  max-height: 0;
+}
+.rbc-event-content {
+  white-space: pre;
+}
