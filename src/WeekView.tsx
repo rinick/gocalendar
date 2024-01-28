@@ -130,6 +130,17 @@ export function WeekView({
           title: item.message,
         });
       }
+      for (const id of Object.keys(selectedUser.calendar.reserve)) {
+        const item = selectedUser.calendar.reserve[id];
+        const opponentName = id.split("-")[0];
+        events.push({
+          id,
+          isSelf: false,
+          start: new Date(item.start),
+          end: new Date(item.end),
+          title: `对局：${opponentName}\n平台：${item.message}`,
+        });
+      }
       for (const [, user] of User.users) {
         if (user !== selectedUser) {
           const id = `${selectedUser!.name}-${user.name}`;
